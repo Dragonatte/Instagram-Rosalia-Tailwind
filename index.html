@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
-<body >
-    <header class="flex mx-5">
-        <div class="flex h-12">
-            <img class="object-scale-down w-8" src="./res/icn/logo.png" alt="logo"/>
-            <img class="object-scale-down w-24" src="./res/img/instagram-new-logo.png" alt="logo"/>
-        </div>
-    </header>
+<body class="w-full">
+  <header class="flex w-full justify-between items-center">
+    <div class="flex mx-5 justify-center items-center h-12 w-12">
+      <img class="object-scale-down w-8" src="./res/icn/logo.png" alt="logo"/>
+    </div>
+    <div class="flex justify-center items-center h-12">
+      <input class="h-8 p-2 border-2 w-full border-gray-400 rounded-md center" type="text" placeholder="Buscar">
+    </div>
+    <div class="h-12 justify-end items-center mx-5">
+      <div class="flex justify-center items-center bg-gradient-to-tr from-amber-500 to-fuchsia-500 rounded-full m-1 w-10 h-10">
+        <img class="rounded-full w-9 h-9 border-white border-2" src="./res/img/acount.png" alt="acount">
+      </div>  
+  </header>
+  <hr class="w-full">
+  <div class="my-2">
+    <div class="relative">
+      <img src="./res/img/photo.jpg" alt="foto">
+      <div class="flex absolute bottom-2 right-4 border-gray-500 border-1 backdrop-blur-md rounded-full p-1">
+        <a>
+          <img class="w-4 m-1" src="./res/icn/fav.svg" alt="F">
+        </a>
+        <a>
+          <img class="w-4 m-1" src="./res/icn/mes.svg" alt="F">
+        </a>
+        <a>
+          <img class="w-4 m-1" src="./res/icn/send.svg" alt="F">
+        </a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
